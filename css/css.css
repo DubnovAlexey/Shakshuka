@@ -12,13 +12,17 @@ table {
 
 .gallery-img {
     width: 400px;
-    height: 300px;
+    max-width: 100%; /* на телефоне не шире ячейки */
+    height: auto;
+    aspect-ratio: 4 / 3; /* прежние 400 x 300 */
     object-fit: cover;
 }
 
 .ingredient-img {
     width: 350px;
-    height: 250px;
+    max-width: 100%; /* на телефоне не шире экрана */
+    height: auto;
+    aspect-ratio: 7 / 5; /* прежние 350 x 250 */
     object-fit: cover;
     display: block;
     margin: 10px auto;
@@ -43,4 +47,24 @@ th, td {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+}
+.serve-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* На узком экране отступы меньше, списки во всю ширину */
+@media (max-width: 600px) {
+    body {
+        margin: 8px;
+    }
+
+    ul, ol {
+        display: block;
+        padding-left: 1.2em;
+    }
+
+    th, td {
+        padding: 4px;
+    }
 }
