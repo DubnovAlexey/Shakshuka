@@ -36,7 +36,7 @@ The recipe page itself is currently in English; the three README versions transl
 
 Proposals below are planned work, not existing features.
 
-- Visual: turn cooking steps into readable cards, align image proportions and add a small pan favicon.
+- Visual: turn cooking steps into readable cards and align image proportions.
 - Engineering: replace remote image dependencies with authorized local images and explicit dimensions; check alt text and local asset paths.
 - Features: add portion scaling, step timers and an on-page language switch with text-only language names.
 
@@ -78,7 +78,7 @@ HTML5 · CSS3 · GitHub Pages
 
 Ниже перечислены предложения, а не уже реализованные функции.
 
-- Визуал: читаемые карточки шагов, одинаковые пропорции изображений и малый favicon сковороды.
+- Визуал: читаемые карточки шагов и одинаковые пропорции изображений.
 - Инженерия: разрешённые локальные фотографии вместо внешних зависимостей, явные размеры и проверка alt/путей ресурсов.
 - Функции: пересчёт порций, таймеры этапов и переключатель языка страницы с текстовыми названиями языков.
 
@@ -116,7 +116,7 @@ HTML5 · CSS3 · GitHub Pages
 
 הסעיפים הבאים הם הצעות להמשך, לא יכולות שכבר יושמו.
 
-- עיצוב: כרטיסי שלבים קריאים, יחסי תמונה עקביים וסמל לשונית של מחבת.
+- עיצוב: כרטיסי שלבים קריאים ויחסי תמונה עקביים.
 - הנדסה: תמונות מקומיות מורשות במקום תלות בתמונות חיצוניות, מידות מפורשות ובדיקת טקסט חלופי ונתיבים.
 - יכולות: התאמת מספר מנות, טיימרים לשלבים ומעבר שפה בדף באמצעות שמות שפות ללא דגלים.
 
