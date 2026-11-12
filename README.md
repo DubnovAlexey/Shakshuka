@@ -1,6 +1,8 @@
+<!--suppress MarkdownUnresolvedFileReference -->
+
 # Shakshuka
 
-[English](#english) · [Русский](#russian) · [עברית](#hebrew)
+[English](#english) · [Русский](#russian) · [עברית](#hebrew) · [Español](#spanish) · [Français](#french)
 
 <a name="english"></a>
 
@@ -30,7 +32,7 @@ Open `index.html` in a browser.
 
 ### Demo scope
 
-The recipe page itself is currently in English; the three README versions translate its documentation. Photos load from external sites, and timers or portion controls are not implemented yet.
+The recipe page itself is currently in English; the five README versions translate its documentation. Photos load from external sites, and timers or portion controls are not implemented yet.
 
 ### Further development
 
@@ -72,7 +74,7 @@ HTML5 · CSS3 · GitHub Pages
 
 ### Границы демонстрации
 
-Сама страница рецепта пока на английском; три README переводят документацию. Фотографии загружаются со сторонних сайтов, таймеров и пересчёта порций пока нет.
+Сама страница рецепта пока на английском; пять README переводят документацию. Фотографии загружаются со сторонних сайтов, таймеров и пересчёта порций пока нет.
 
 ### Дальнейшее развитие
 
@@ -110,7 +112,7 @@ HTML5 · CSS3 · GitHub Pages
 
 ### גבולות ההדגמה
 
-דף המתכון עצמו כרגע באנגלית; שלוש גרסאות README מתרגמות את התיעוד. התמונות נטענות מאתרים חיצוניים, וטיימרים והתאמת מנות עדיין לא יושמו.
+דף המתכון עצמו כרגע באנגלית; חמש גרסאות README מתרגמות את התיעוד. התמונות נטענות מאתרים חיצוניים, וטיימרים והתאמת מנות עדיין לא יושמו.
 
 ### המשך פיתוח
 
@@ -121,3 +123,87 @@ HTML5 · CSS3 · GitHub Pages
 - יכולות: התאמת מספר מנות, טיימרים לשלבים ומעבר שפה בדף באמצעות שמות שפות ללא דגלים.
 
 </div>
+
+---
+
+<a name="spanish"></a>
+
+## Español
+
+**Shakshuka**
+
+La receta de la shakshuka, el desayuno tradicional israelí, en una sola página: galería de fotos, ingredientes con imágenes, preparación paso a paso y consejos. Una tarea de HTML y CSS del curso Full Stack.
+
+**Demo:** https://dubnovalexey.github.io/Shakshuka/
+
+### Pruébelo
+
+Repase los ingredientes y siga los pasos numerados de la preparación. Compare la galería y las imágenes de los ingredientes en una pantalla estrecha y en una ancha.
+
+### Qué hay dentro
+
+- Una tabla-galería, una lista de ingredientes con imágenes, pasos numerados y notas.
+- HTML semántico: títulos, listas, una tabla, `<strong>` e `<i>`.
+- Imágenes adaptables (`max-width: 100%`, `aspect-ratio`) y carga diferida: la página cabe en un móvil.
+
+### Tecnologías
+
+HTML5 · CSS3 · GitHub Pages
+
+### Cómo ejecutarlo
+
+Abra `index.html` en el navegador.
+
+### Alcance de la demo
+
+La página de la receta está, por ahora, en inglés; las cinco versiones del README traducen la documentación. Las fotos se cargan desde sitios externos, y todavía no hay temporizadores ni cálculo de raciones.
+
+### Desarrollo futuro
+
+Lo que sigue son propuestas, no funciones ya implementadas.
+
+- Visual: tarjetas de pasos legibles y proporciones de imagen iguales.
+- Ingeniería: fotos locales con permiso en lugar de dependencias externas, tamaños explícitos y revisión de alt y de las rutas de recursos.
+- Funciones: cálculo de raciones, temporizadores por etapa y un selector de idioma de la página con nombres de idioma en texto.
+
+---
+
+<a name="french"></a>
+
+## Français
+
+**Chakchouka**
+
+La recette de la chakchouka, le petit-déjeuner israélien traditionnel, sur une seule page : galerie de photos, ingrédients en images, préparation pas à pas et conseils. Un devoir de HTML et CSS du cours Full Stack.
+
+**Démo :** https://dubnovalexey.github.io/Shakshuka/
+
+### À essayer
+
+Parcourez les ingrédients et suivez les étapes numérotées de la préparation. Comparez la galerie et les images des ingrédients sur un écran étroit et sur un écran large.
+
+### Ce qu'il y a dedans
+
+- Un tableau-galerie, une liste d'ingrédients avec images, des étapes numérotées et des notes.
+- HTML sémantique : titres, listes, un tableau, `<strong>` et `<i>`.
+- Images adaptatives (`max-width: 100%`, `aspect-ratio`) et chargement différé : la page tient sur un téléphone.
+
+### Technologies
+
+HTML5 · CSS3 · GitHub Pages
+
+### Lancer le projet
+
+Ouvrez `index.html` dans le navigateur.
+
+### Limites de la démo
+
+La page de la recette elle-même est pour l'instant en anglais ; les cinq versions du README traduisent la documentation. Les photos se chargent depuis des sites externes, et il n'y a pas encore de minuteurs ni de calcul des portions.
+
+### Évolutions possibles
+
+Ce qui suit sont des propositions, pas des fonctions déjà réalisées.
+
+- Visuel : des cartes d'étapes lisibles et des proportions d'images identiques.
+- Ingénierie : des photos locales autorisées au lieu de dépendances externes, des dimensions explicites et une vérification des alt et des chemins de ressources.
+- Fonctions : calcul des portions, minuteurs par étape et sélecteur de langue de la page avec des noms de langue en texte.
