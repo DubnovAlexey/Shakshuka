@@ -69,6 +69,34 @@ th, td {
     }
 }
 
+/* Фото под мышью: крупная копия поверх страницы (js/hover-zoom.js) — целиком, в белой рамке, как карточка
+   рецепта, с красной каймой ссылки на исходники. Копия не ловит мышь: клик попадает в само фото. */
+.zoom-peek {
+    position: fixed;
+    z-index: 1000;
+    box-sizing: border-box;
+    pointer-events: none;
+    transform-origin: 0 0;
+    background: #fff;
+    border: 6px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 0 2px #c0392b, 0 24px 60px rgba(0, 0, 0, 0.45);
+    transition: transform 0.32s cubic-bezier(0.2, 0.8, 0.25, 1), opacity 0.24s ease;
+}
+
+.zoom-peek img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .zoom-peek {
+        transition: none;
+    }
+}
+
 /* Source code link — a small recipe-card footer */
 .recipe-footer {
     margin: 2rem auto 2.5rem;
